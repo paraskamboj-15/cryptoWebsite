@@ -1,0 +1,15 @@
+/* Theme Name: cryptlight Child Theme
+Theme URI: https://themeforest.net/user/ovatheme/portfolio
+Description: This is child theme of cryptlight
+Author: Ovatheme
+Author URI: https://themeforest.net/user/ovatheme
+Template: cryptlight
+Version: 1.0.0
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain:  cryptlight-child
+*/
+function cc_mime_types($mimes) {
+  $mimes['svg'] = 'image/svg+xml';
+  return $mimes;
+}
+add_filter('upload_mimes', 'cc_mime_types');

@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot');
+  src:  url('../fonts/icomoon.eot#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../images/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ovaicomoon-"], [class*=" ovaicomoon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ovaicomoon-android:before {
+  content: "\e900";
+}
+.ovaicomoon-binance-coin:before {
+  content: "\e901";
+}
+.ovaicomoon-bitcoin:before {
+  content: "\e902";
+}
+.ovaicomoon-card-tick:before {
+  content: "\e903";
+}
+.ovaicomoon-cellphone:before {
+  content: "\e904";
+}
+.ovaicomoon-chart:before {
+  content: "\e905";
+}
+.ovaicomoon-convert-card:before {
+  content: "\e906";
+}
+.ovaicomoon-kyber-network:before {
+  content: "\e907";
+}
+.ovaicomoon-mobile:before {
+  content: "\e908";
+}
+.ovaicomoon-paypal:before {
+  content: "\e909";
+}
+.ovaicomoon-people:before {
+  content: "\e90a";
+}
+.ovaicomoon-receipt-disscount:before {
+  content: "\e90b";
+}
+.ovaicomoon-security-safe:before {
+  content: "\e90c";
+}
+.ovaicomoon-shopping-cart:before {
+  content: "\e90d";
+}
+.ovaicomoon-status-up:before {
+  content: "\e90e";
+}
+.ovaicomoon-trontron:before {
+  content: "\e90f";
+}
+.ovaicomoon-wallet:before {
+  content: "\e910";
+}
+.ovaicomoon-wallet-3:before {
+  content: "\e911";
+}
